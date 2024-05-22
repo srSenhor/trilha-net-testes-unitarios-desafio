@@ -31,7 +31,7 @@ public class ValidacoesStringTests
         var resultado = _validacoes.ContemCaractere(texto, textoProcurado);
 
         // Assert
-        Assert.True(true);
+        Assert.True(resultado);
     }
 
     [Fact]
